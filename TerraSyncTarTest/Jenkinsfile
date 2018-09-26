@@ -1,13 +1,11 @@
 pipeline {
-   agent any
+   agent { dockerfile true }
    options { disableConcurrentBuilds() }
    stages {
 
     stage( 'build' ) {
       steps{
-            dockerNode(credentialsId: '', dockerHost: 'tcp://127.0.0.1:2375', image: 'terrasynctartest', remoteFs: '') {
-                // some block
-            }
+            sh 'echo this'
        }
     }
   }
