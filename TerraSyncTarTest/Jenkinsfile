@@ -5,6 +5,9 @@ pipeline {
 
     stage( 'build' ) {
       steps{
+            dockerNode(credentialsId: '', dockerHost: 'localhost', image: 'TerraSyncTarTest', remoteFs: '') {
+                // some block
+            }
        }
     }
     
