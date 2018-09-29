@@ -1,0 +1,1155 @@
+<?xml version="1.0"?>
+<!-- project:  -->
+<!-- cursor: 0.000000000000 0.000000000000 0.000000000000 -->
+
+<PropertyList>
+	<path>draxchimney.ac</path>
+
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>25000</max-m>
+	</animation>
+
+	<CircleXparams>
+		<light-near>0.4</light-near>
+		<light-med>0.8</light-med>
+		<light-far>10</light-far>
+	</CircleXparams>
+
+	<animation>
+		<name>CircleXGroup</name>
+		<object-name>CircleX00</object-name>
+		<object-name>CircleX01</object-name>
+		<object-name>CircleX02</object-name>
+		<object-name>CircleX03</object-name>
+		<object-name>CircleX04</object-name>
+		<object-name>CircleX05</object-name>
+		<object-name>CircleX06</object-name>
+		<object-name>CircleX07</object-name>
+		<object-name>CircleX08</object-name>
+		<object-name>CircleX09</object-name>
+		<object-name>CircleX10</object-name>
+		<object-name>CircleX11</object-name>
+		<object-name>CircleX12</object-name>
+		<object-name>CircleX13</object-name>
+		<object-name>CircleX14</object-name>
+		<object-name>CircleX15</object-name>
+		<object-name>CircleX16</object-name>
+		<object-name>CircleX17</object-name>
+		<object-name>CircleX18</object-name>
+		<object-name>CircleX19</object-name>
+		<object-name>CircleX20</object-name>
+		<object-name>CircleX21</object-name>
+		<object-name>CircleX22</object-name>
+		<object-name>CircleX23</object-name>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<name>CircleXGroupNight</name>
+		<object-name>CircleXGroup</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>CircleXGroup</object-name>
+		<alpha-factor>0.001</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX00</object-name>
+		<offset-m>257.370239</offset-m>
+		<axis>
+			<x>-9.758074</x>
+			<y>-9.758073</y>
+			<z>257</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX01</object-name>
+		<offset-m>257.370239</offset-m>
+		<axis>
+			<x>-13.329777</x>
+			<y>3.571705</y>
+			<z>257</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX02</object-name>
+		<offset-m>257.370239</offset-m>
+		<axis>
+			<x>-3.571701</x>
+			<y>13.329778</y>
+			<z>257</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX03</object-name>
+		<offset-m>257.370239</offset-m>
+		<axis>
+			<x>9.758075</x>
+			<y>9.758073</y>
+			<z>257</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX04</object-name>
+		<offset-m>257.370239</offset-m>
+		<axis>
+			<x>13.329775</x>
+			<y>-3.571708</y>
+			<z>257</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX05</object-name>
+		<offset-m>257.370239</offset-m>
+		<axis>
+			<x>3.5717</x>
+			<y>-13.329777</y>
+			<z>257</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX06</object-name>
+		<offset-m>197.482759</offset-m>
+		<axis>
+			<x>3.5717</x>
+			<y>-13.329777</y>
+			<z>197</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX07</object-name>
+		<offset-m>197.482759</offset-m>
+		<axis>
+			<x>13.329775</x>
+			<y>-3.571708</y>
+			<z>197</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX08</object-name>
+		<offset-m>197.482759</offset-m>
+		<axis>
+			<x>9.758075</x>
+			<y>9.758073</y>
+			<z>197</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX09</object-name>
+		<offset-m>197.482759</offset-m>
+		<axis>
+			<x>-3.571701</x>
+			<y>13.329778</y>
+			<z>197</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX10</object-name>
+		<offset-m>197.482759</offset-m>
+		<axis>
+			<x>-13.329777</x>
+			<y>3.571705</y>
+			<z>197</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX11</object-name>
+		<offset-m>197.482759</offset-m>
+		<axis>
+			<x>-9.758074</x>
+			<y>-9.758073</y>
+			<z>197</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX12</object-name>
+		<offset-m>137.693282</offset-m>
+		<axis>
+			<x>-9.758074</x>
+			<y>-9.758073</y>
+			<z>137</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX13</object-name>
+		<offset-m>137.693282</offset-m>
+		<axis>
+			<x>-13.329777</x>
+			<y>3.571705</y>
+			<z>137</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX14</object-name>
+		<offset-m>137.693282</offset-m>
+		<axis>
+			<x>-3.571701</x>
+			<y>13.329778</y>
+			<z>137</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX15</object-name>
+		<offset-m>137.693282</offset-m>
+		<axis>
+			<x>9.758075</x>
+			<y>9.758073</y>
+			<z>137</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX16</object-name>
+		<offset-m>137.693282</offset-m>
+		<axis>
+			<x>13.329775</x>
+			<y>-3.571708</y>
+			<z>137</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX17</object-name>
+		<offset-m>137.693282</offset-m>
+		<axis>
+			<x>3.5717</x>
+			<y>-13.329777</y>
+			<z>137</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX18</object-name>
+		<offset-m>78.22685</offset-m>
+		<axis>
+			<x>3.5717</x>
+			<y>-13.329777</y>
+			<z>77</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX19</object-name>
+		<offset-m>78.22685</offset-m>
+		<axis>
+			<x>13.329775</x>
+			<y>-3.571708</y>
+			<z>77</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX20</object-name>
+		<offset-m>78.22685</offset-m>
+		<axis>
+			<x>9.758075</x>
+			<y>9.758073</y>
+			<z>77</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX21</object-name>
+		<offset-m>78.22685</offset-m>
+		<axis>
+			<x>-3.571701</x>
+			<y>13.329778</y>
+			<z>77</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX22</object-name>
+		<offset-m>78.22685</offset-m>
+		<axis>
+			<x>-13.329777</x>
+			<y>3.571705</y>
+			<z>77</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>CircleX23</object-name>
+		<offset-m>78.22685</offset-m>
+		<axis>
+			<x>-9.758074</x>
+			<y>-9.758073</y>
+			<z>77</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX00</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX01</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX02</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX03</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX04</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX05</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX06</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX07</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX08</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX09</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX10</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX11</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX12</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX13</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX14</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX15</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX16</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX17</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX18</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX19</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX20</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX21</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX22</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>CircleX23</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX00</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX01</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX02</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX03</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX04</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX05</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX06</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX07</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX08</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX09</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX10</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX11</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX12</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX13</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX14</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX15</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX16</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX17</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX18</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX19</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX20</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX21</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX22</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CircleX23</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../CircleXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../CircleXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../CircleXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+<particlesystem>
+  <name>smoke</name>
+  
+  <texture>smoke.rgb</texture>
+  <emissive>false</emissive>
+  <lighting>false</lighting>
+       
+  <offsets>
+    <x-m>7</x-m>
+    <y-m>0</y-m>
+    <z-m>265</z-m>
+  </offsets>
+           
+  <attach>local</attach>
+           
+  <placer>
+    <type>point</type>
+  </placer>
+           
+  <shooter>
+    <speed>
+    	<value>5</value>
+	<spread>3</spread>
+    </speed>
+  </shooter>
+       
+  <counter>
+    <pps>
+      <value>5</value>
+      <spread>4</spread>
+    </pps>
+  </counter>
+           
+  <align>billboard</align>
+           
+  <particle>
+
+  <startcolor>
+    <red><value>0.5</value></red>
+    <green><value>0.5</value></green>
+    <blue><value>0.5</value></blue>
+    <alpha><value>1</value></alpha>
+  </startcolor>
+
+  <endcolor>
+    <red><value>0.2</value></red>
+    <green><value>0.2</value></green>
+    <blue><value>0.2</value></blue>
+    <alpha><value>0.2</value></alpha>
+  </endcolor>
+    
+  <startsize>
+    <value>10</value>
+  </startsize>
+       
+  <endsize>
+    <value>20</value>
+  </endsize>
+               
+  <lifetime>
+    <value>30</value>
+  </lifetime>
+             
+  <mass-kg>20</mass-kg>
+  <radius-m>10</radius-m>
+  </particle>
+           
+  <program>
+    <fluid>air</fluid>
+    <gravity>enabled</gravity>
+    <wind>enabled</wind>
+  </program>
+           
+</particlesystem>
+
+<particlesystem>
+  <name>smoke2</name>
+  
+  <texture>smoke.rgb</texture>
+  <emissive>false</emissive>
+  <lighting>false</lighting>
+       
+  <offsets>
+    <x-m>-6.06</x-m>
+    <y-m>-3.5</y-m>
+    <z-m>265</z-m>
+  </offsets>
+           
+  <attach>local</attach>
+           
+  <placer>
+    <type>point</type>
+  </placer>
+           
+  <shooter>
+    <speed>
+    	<value>5</value>
+	<spread>3</spread>
+    </speed>
+  </shooter>
+       
+  <counter>
+    <pps>
+      <value>5</value>
+      <spread>4</spread>
+    </pps>
+  </counter>
+           
+  <align>billboard</align>
+           
+  <particle>
+
+  <startcolor>
+    <red><value>0.5</value></red>
+    <green><value>0.5</value></green>
+    <blue><value>0.5</value></blue>
+    <alpha><value>1</value></alpha>
+  </startcolor>
+
+  <endcolor>
+    <red><value>0.2</value></red>
+    <green><value>0.2</value></green>
+    <blue><value>0.2</value></blue>
+    <alpha><value>0.2</value></alpha>
+  </endcolor>
+    
+  <startsize>
+    <value>10</value>
+  </startsize>
+       
+  <endsize>
+    <value>20</value>
+  </endsize>
+               
+  <lifetime>
+    <value>30</value>
+  </lifetime>
+             
+  <mass-kg>20</mass-kg>
+  <radius-m>10</radius-m>
+  </particle>
+           
+  <program>
+    <fluid>air</fluid>
+    <gravity>enabled</gravity>
+    <wind>enabled</wind>
+  </program>
+           
+</particlesystem>
+
+<particlesystem>
+  <name>smoke3</name>
+  
+  <texture>smoke.rgb</texture>
+  <emissive>false</emissive>
+  <lighting>false</lighting>
+       
+  <offsets>
+    <x-m>6.06</x-m>
+    <y-m>-3.5</y-m>
+    <z-m>265</z-m>
+  </offsets>
+           
+  <attach>local</attach>
+           
+  <placer>
+    <type>point</type>
+  </placer>
+           
+  <shooter>
+    <speed>
+    	<value>5</value>
+	<spread>3</spread>
+    </speed>
+  </shooter>
+       
+  <counter>
+    <pps>
+      <value>5</value>
+      <spread>4</spread>
+    </pps>
+  </counter>
+           
+  <align>billboard</align>
+           
+  <particle>
+
+  <startcolor>
+    <red><value>0.5</value></red>
+    <green><value>0.5</value></green>
+    <blue><value>0.5</value></blue>
+    <alpha><value>1</value></alpha>
+  </startcolor>
+
+  <endcolor>
+    <red><value>0.2</value></red>
+    <green><value>0.2</value></green>
+    <blue><value>0.2</value></blue>
+    <alpha><value>0.2</value></alpha>
+  </endcolor>
+    
+  <startsize>
+    <value>10</value>
+  </startsize>
+       
+  <endsize>
+    <value>20</value>
+  </endsize>
+               
+  <lifetime>
+    <value>30</value>
+  </lifetime>
+             
+  <mass-kg>20</mass-kg>
+  <radius-m>10</radius-m>
+  </particle>
+           
+  <program>
+    <fluid>air</fluid>
+    <gravity>enabled</gravity>
+    <wind>enabled</wind>
+  </program>
+           
+</particlesystem>
+
+</PropertyList>
