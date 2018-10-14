@@ -9,6 +9,8 @@ docker build C:\git\TerraSyncTarTest\ -t terrasync
 
 Run image with local port 1181 forwarded to container. The tests in TerraMaster use 1181
 
+The example contains normal terrasync directories mixed with new style tarballs.
+
 ```
 docker run -p 1181:80 terrasync
 ```
@@ -23,7 +25,7 @@ t:Effects:5f7f4e57286a65b5fb28cdb4dd46cab4454184c8:416
 
 Points to Models/Effects.tgz
 
-.dirindex in Objects/w010n70
+.dirindex in Objects/w010n70 with a tarball
 
 ```
 version:1
@@ -31,3 +33,10 @@ path:Objects/w010n70
 t:w009n70:86eb1bd1f20f8f8c444d70a4c463f192415bd526
 ```
 
+.dirindex in Objects/w010n50 with a directory 
+
+```
+version:1
+path:Objects/w010n50
+d:w001n53:86eb1bd1f20f8f8c444d70a4c463f192415bd526
+```
